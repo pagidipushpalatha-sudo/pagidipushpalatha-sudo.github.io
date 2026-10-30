@@ -1,0 +1,11 @@
+PUSHPALATHA WEBSITE PACKAGE — UPLOAD GUIDE
+
+Contents: index.html and the e-content folder containing seven PowerPoint presentations.
+
+1. Open https://github.com/pagidipushpalatha-sudo/pagidipushpalatha-sudo.github.io
+2. Upload/replace index.html in the repository root.
+3. Upload the complete e-content folder and all its files to the repository root.
+4. Commit changes and wait for GitHub Pages to deploy.
+5. Visit https://pagidipushpalatha-sudo.github.io/
+
+Keep the folder name exactly e-content and preserve the filenames. All files on a public GitHub Pages site can be accessed by anyone.

@@ -1,33 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Academic portfolio of P. Pushpalatha, Assistant Professor of Biotechnology.">
-<title>P. Pushpalatha | Academic &amp; Research Portfolio</title>
-<style>
-:root{--navy:#123b45;--teal:#176b63;--green:#43866e;--mint:#eaf4ee;--cream:#fbfaf5;--ink:#263b42;--muted:#5c7075;--line:#dbe7e1}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.7}
-header{position:sticky;top:0;z-index:5;background:var(--navy);color:white}.nav{max-width:1180px;margin:auto;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font:bold 1.4rem Georgia,serif;color:white;text-decoration:none;white-space:nowrap}nav{display:flex;flex-wrap:wrap;gap:15px}nav a{color:white;text-decoration:none;font-size:.9rem}nav a:hover{color:#e2bd70}
-.hero{background:linear-gradient(120deg,#e7f1e9,#fff 55%,#dcece4);border-bottom:1px solid var(--line)}.hero-inner{max-width:1180px;margin:auto;padding:60px 24px 70px;display:grid;grid-template-columns:1.35fr .75fr;align-items:center;gap:42px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;color:var(--green);font-weight:bold;font-size:.78rem}h1{margin:12px 0;color:var(--navy);font:bold clamp(2.7rem,5vw,4.6rem)/1.1 Georgia,serif}.hero h2{color:var(--teal);font-size:1.25rem;line-height:1.5;margin:0 0 14px}.hero p{max-width:680px;color:#4c6267;font-size:1.05rem}
-.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.button{display:inline-block;border-radius:9px;padding:10px 16px;text-decoration:none;font-weight:bold;border:1px solid var(--teal)}.primary{background:var(--teal);color:white}.secondary{background:white;color:var(--teal)}
-.profile{padding:24px;background:#ffffffd9;border:1px solid var(--line);border-radius:20px;text-align:center}.profile-photo{display:block;width:180px;height:210px;object-fit:cover;object-position:center 25%;margin:0 auto 15px;border:4px solid white;border-radius:16px}.profile h3{font:bold 1.3rem Georgia,serif;color:var(--navy);margin:8px 0 2px}.profile p{margin:3px 0;font-size:.9rem;color:var(--muted)}.pills{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:14px}.pill{padding:4px 10px;border-radius:30px;background:var(--mint);color:#285b4c;font-size:.78rem}
-.highlights{max-width:1180px;margin:-25px auto 0;padding:0 24px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;position:relative}.highlight{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;text-align:center}.highlight strong{display:block;color:var(--teal)}.highlight span{color:var(--muted);font-size:.83rem}
-main{max-width:1180px;margin:auto;padding:45px 24px 65px}section{margin-bottom:52px}.section-heading{margin-bottom:19px}.section-heading h2{margin:3px 0;font:bold 2rem Georgia,serif;color:var(--navy)}.intro{color:var(--muted);max-width:900px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.two-col{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:21px}.card h3{color:var(--teal);font:bold 1.15rem Georgia,serif;margin:0 0 8px}.card p{color:#52676c;margin:0 0 8px}.card p:last-child{margin-bottom:0}ul{padding-left:20px;margin:8px 0 0}li{margin:7px 0}.timeline{border-left:3px solid #c7dfd2;padding-left:20px}.timeline-item{position:relative;margin:0 0 18px}.timeline-item:before{content:"";position:absolute;left:-28px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--green);border:3px solid #e5f1e9}.timeline-item h3{margin:0;font-size:1rem}.timeline-item small{color:var(--green);font-weight:bold}.notice{background:#fff7e6;border:1px solid #efdfb6;color:#6b592e;padding:14px 16px;border-radius:11px;font-size:.92rem}
-.contact{background:linear-gradient(120deg,var(--navy),var(--teal));border-radius:19px;padding:30px;color:white;display:flex;justify-content:space-between;align-items:center;gap:22px}.contact h2{margin:0 0 6px;font:bold 1.8rem Georgia,serif}.contact p{color:#dcebe5;margin:0}.contact .button{background:white;color:var(--navy);border-color:white}footer{background:#092c33;color:#d5e4df;padding:23px;text-align:center;font-size:.87rem}footer p{margin:4px}
-@media(max-width:820px){.nav{align-items:flex-start;flex-direction:column}.hero-inner{grid-template-columns:1fr;padding-top:42px}.profile{max-width:430px}.highlights{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){nav{gap:10px}nav a{font-size:.82rem}.grid,.two-col{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}}
-</style></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic portfolio of P. Pushpalatha, Assistant Professor of Biotechnology at Government Degree College for Women (Autonomous), Nalgonda, Telangana, India.">
+  <title>P. Pushpalatha | Biotechnology Academic Portfolio</title>
+  <style>
+    :root {
+      --navy: #123743;
+      --teal: #176b63;
+      --green: #4b826a;
+      --mint: #eaf4ef;
+      --paper: #fbfaf6;
+      --ink: #263b42;
+      --muted: #5c7075;
+      --line: #dce7e1;
+      --gold: #c89b4a;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Segoe UI", Arial, sans-serif; line-height: 1.7; }
+    a { color: var(--teal); }
+    .site-header { position: sticky; top: 0; z-index: 10; background: var(--navy); box-shadow: 0 2px 12px #0d30331a; }
+    .nav-wrap { max-width: 1160px; margin: auto; padding: 13px 22px; display: flex; align-items: center; justify-content: space-between; gap: 22px; }
+    .brand { color: #fff; text-decoration: none; font: bold 1.35rem Georgia, serif; white-space: nowrap; }
+    nav { display: flex; flex-wrap: wrap; gap: 14px; }
+    nav a { color: #f4faf7; text-decoration: none; font-size: .9rem; }
+    nav a:hover { color: #f2d69c; }
+    .hero { background: linear-gradient(120deg, #e6f1e9, #fff 58%, #dcece4); border-bottom: 1px solid var(--line); }
+    .hero-inner { max-width: 1160px; margin: auto; padding: 58px 22px 66px; display: grid; grid-template-columns: 1.35fr .75fr; gap: 42px; align-items: center; }
+    .eyebrow { color: var(--green); text-transform: uppercase; letter-spacing: .15em; font-size: .77rem; font-weight: 800; }
+    h1 { color: var(--navy); font: bold clamp(2.7rem, 5.5vw, 4.6rem)/1.08 Georgia, serif; margin: 12px 0; }
+    .hero h2 { color: var(--teal); font-size: 1.18rem; line-height: 1.55; margin: 0 0 15px; }
+    .hero-copy { color: #4d6267; max-width: 690px; font-size: 1.05rem; }
+    .button-row { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 24px; }
+    .button { display: inline-block; border-radius: 9px; padding: 10px 16px; font-weight: 700; text-decoration: none; border: 1px solid var(--teal); }
+    .button-primary { color: white; background: var(--teal); }
+    .button-light { color: var(--teal); background: white; }
+    .profile-card { padding: 23px; background: #ffffffdb; border: 1px solid var(--line); border-radius: 19px; text-align: center; }
+    .profile-photo { display: block; width: 190px; height: 220px; object-fit: cover; object-position: center 25%; margin: 0 auto 14px; border: 4px solid white; border-radius: 15px; box-shadow: 0 5px 18px #163f351b; }
+    .photo-placeholder { width: 190px; height: 220px; margin: 0 auto 14px; display: grid; place-items: center; border-radius: 15px; background: var(--mint); color: var(--teal); font: bold 4rem Georgia, serif; }
+    .profile-card h3 { color: var(--navy); font: bold 1.3rem Georgia, serif; margin: 8px 0 0; }
+    .profile-card p { color: var(--muted); margin: 3px 0; font-size: .9rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; margin-top: 13px; }
+    .badge { color: #285b4c; background: var(--mint); border-radius: 30px; padding: 4px 10px; font-size: .78rem; }
+    .stats { max-width: 1160px; margin: -23px auto 0; padding: 0 22px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; position: relative; }
+    .stat { background: white; border: 1px solid var(--line); border-radius: 12px; padding: 14px; text-align: center; }
+    .stat strong { display: block; color: var(--teal); font-size: 1.03rem; }
+    .stat span { color: var(--muted); font-size: .82rem; }
+    main { max-width: 1160px; margin: auto; padding: 45px 22px 65px; }
+    section { margin-bottom: 52px; }
+    .section-heading { margin-bottom: 19px; }
+    .section-heading h2 { color: var(--navy); font: bold 2rem Georgia, serif; margin: 4px 0 8px; }
+    .intro { max-width: 900px; color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .two-col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    .card { padding: 21px; background: white; border: 1px solid var(--line); border-radius: 14px; }
+    .card h3 { color: var(--teal); font: bold 1.15rem Georgia, serif; margin: 0 0 8px; }
+    .card p { color: #52676c; margin: 0 0 9px; }
+    .card p:last-child { margin-bottom: 0; }
+    ul { padding-left: 20px; margin: 8px 0 0; }
+    li { margin: 7px 0; }
+    .timeline { border-left: 3px solid #c7dfd2; padding-left: 20px; }
+    .timeline-item { position: relative; margin-bottom: 18px; }
+    .timeline-item:last-child { margin-bottom: 0; }
+    .timeline-item::before { content: ""; position: absolute; left: -28px; top: 8px; width: 11px; height: 11px; border-radius: 50%; background: var(--green); border: 3px solid #e5f1e9; }
+    .timeline-item h3 { margin: 0; font-size: 1rem; }
+    .timeline-item small { color: var(--green); font-weight: 800; }
+    .note { margin-top: 16px; padding: 14px 16px; background: #fff7e6; border: 1px solid #efdfb6; border-radius: 10px; color: #6b592e; font-size: .9rem; }
+    .contact { display: flex; justify-content: space-between; align-items: center; gap: 22px; padding: 30px; color: white; background: linear-gradient(120deg, var(--navy), var(--teal)); border-radius: 18px; }
+    .contact h2 { margin: 0 0 7px; font: bold 1.8rem Georgia, serif; }
+    .contact p { margin: 0; color: #dcebe5; }
+    .contact .button { color: var(--navy); background: white; border-color: white; white-space: nowrap; }
+    footer { padding: 23px; color: #d5e4df; background: #092c33; text-align: center; font-size: .87rem; }
+    footer p { margin: 4px; }
+    @media (max-width: 850px) {
+      .nav-wrap { align-items: flex-start; flex-direction: column; }
+      .hero-inner { grid-template-columns: 1fr; padding-top: 42px; }
+      .profile-card { max-width: 420px; }
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 570px) {
+      nav { gap: 10px; }
+      nav a { font-size: .82rem; }
+      .grid, .two-col { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+      .contact { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
 <body>
-<header><div class="nav"><a class="brand" href="#home">✦ P. Pushpalatha</a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#academic">Academic Profile</a><a href="#teaching">Teaching</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></nav></div></header>
-<div class="hero" id="home"><div class="hero-inner"><div><div class="eyebrow">Education · Research · Innovation</div><h1>P. Pushpalatha</h1><h2>Assistant Professor of Biotechnology<br>Government Degree College for Women (Autonomous), Nalgonda, Telangana, India</h2><p>Committed to biotechnology education, student mentoring, and research connecting plant biotechnology, environmental sustainability, and emerging scientific innovations.</p><div class="buttons"><a class="button primary" href="#academic">Explore My Academic Profile ↓</a><a class="button secondary" href="#contact">Academic Collaboration</a></div></div><aside class="profile"><img class="profile-photo" src="pushpalatha-profile.jpg" alt="Portrait of P. Pushpalatha"><h3>Academic &amp; Research Portfolio</h3><p>Biotechnology · Higher Education · Research</p><div class="pills"><span class="pill">CSIR-UGC NET</span><span class="pill">APSET</span><span class="pill">Best Teacher Award, 2023</span></div></aside></div></div>
-<div class="highlights"><div class="highlight"><strong>14+ Years*</strong><span>Teaching experience</span></div><div class="highlight"><strong>Biotechnology</strong><span>Teaching &amp; mentoring</span></div><div class="highlight"><strong>Research</strong><span>Plant &amp; environmental biotechnology</span></div><div class="highlight"><strong>2023</strong><span>Best Teacher Award · RIF</span></div></div>
-<main>
-<section id="about"><div class="section-heading"><div class="eyebrow">Introduction</div><h2>About Me</h2></div><p class="intro">I am P. Pushpalatha, Assistant Professor of Biotechnology at Government Degree College for Women (Autonomous), Nalgonda, Telangana. My academic work includes teaching, curriculum development, student project guidance, departmental coordination, and research interests that connect biotechnology with health, agriculture, and environmental sustainability.</p><p class="intro">I am committed to creating engaging learning experiences, encouraging scientific curiosity, and helping students connect core biotechnology concepts with practical and emerging applications.</p></section>
-<section id="academic"><div class="section-heading"><div class="eyebrow">Qualifications &amp; Experience</div><h2>Academic Profile</h2></div><div class="two-col"><article class="card"><h3>Educational Qualifications</h3><ul><li><strong>M.Sc. Biotechnology</strong> — Kakatiya University, Warangal (2009).</li><li><strong>B.Sc.</strong> — Singareni Mahila Degree College, Andugulapeta, Kakatiya University (2007).</li><li><strong>CSIR-UGC NET</strong> — Qualified in 2009.</li><li><strong>APSET</strong> — Qualified in 2012, Osmania University.</li></ul></article><article class="card"><h3>Professional Experience &amp; Responsibilities</h3><div class="timeline"><div class="timeline-item"><small>26 December 2011</small><h3>Entered Government Service</h3><p>Assistant Professor in Biotechnology.</p></div><div class="timeline-item"><small>14 September 2013</small><h3>Joined Present Station</h3><p>Academic and departmental responsibilities in higher education.</p></div><div class="timeline-item"><small>1 July 2026</small><h3>Additional Controller of Examinations</h3><p>Examination-related administrative responsibility.</p></div></div></article></div><p class="notice" style="margin-top:16px">*Teaching experience and appointment details are based on previously supplied information. Verify dates, current designations, and institutional wording before public release.</p></section>
-<section id="teaching"><div class="section-heading"><div class="eyebrow">Teaching &amp; Mentoring</div><h2>Teaching Portfolio</h2><p class="intro">Course delivery, syllabus development, practical learning, assessment, and student project mentoring.</p></div><div class="grid"><article class="card"><h3>Core Biotechnology</h3><p>Cell Biology, Genetics, Molecular Biology, Biochemistry, Microbiology, and Immunology.</p></article><article class="card"><h3>Plant Biotechnology</h3><p>Plant tissue culture, plant growth regulators, somaclonal variation, and plant biotechnology applications.</p></article><article class="card"><h3>Bioinformatics</h3><p>Sequence analysis, BLAST, FASTA, phylogenetics, and introductory in-silico workflows.</p></article><article class="card"><h3>Practical Learning</h3><p>Laboratory demonstrations, virtual-lab assignments, experimental design, and scientific reporting.</p></article><article class="card"><h3>Curriculum Development</h3><p>Outcome-based education, course outcomes, question banks, assessment blueprints, and syllabus revision.</p></article><article class="card"><h3>Student Mentoring</h3><p>Guidance for student projects, scientific presentations, research literacy, and career development.</p></article></div></section>
-<section id="research"><div class="section-heading"><div class="eyebrow">Research Focus</div><h2>Research Interests &amp; Projects</h2><p class="intro">Research themes and student projects that connect biological science with sustainable applications. Update each item with its current status and outputs.</p></div><div class="grid"><article class="card"><h3>Plant Biotechnology</h3><p>Plant tissue culture, phytochemicals, medicinal plants, and plant-derived bioactive compounds.</p></article><article class="card"><h3>Environmental Biotechnology</h3><p>Bioplastics, waste management, biofuels, bioremediation, and sustainability.</p></article><article class="card"><h3>Natural Products</h3><p>Phytochemical analysis and antimicrobial investigations involving <em>Piper longum</em> and other plants.</p></article><article class="card"><h3>Nutraceuticals &amp; Millets</h3><p>Comparative amino-acid profiling of raw and sprouted ragi and bajra using TLC-based approaches.</p></article><article class="card"><h3>Bioinformatics</h3><p>In-silico and phylogenetic analysis of nifH gene sequences using MEGA.</p></article><article class="card"><h3>Nanotechnology &amp; Drug Delivery</h3><p>Research proposal focus: Moringa-derived flavonoids and mesoporous silica nanoparticle-based delivery strategies for anticancer applications.</p></article></div></section>
-<section id="publications"><div class="section-heading"><div class="eyebrow">Scholarly Work</div><h2>Publications &amp; Academic Writing</h2><p class="intro">Use this section for verified publications, with complete bibliographic information and links to published work.</p></div><div class="two-col"><article class="card"><h3>Book Chapter</h3><p><strong>“Plastic Recycling and Regeneration in Sustainable Smart Manufacturing”</strong></p><p>Add publisher, editor(s), publication year, page range, ISBN, and DOI or official link as applicable.</p></article><article class="card"><h3>Review &amp; Conference Themes</h3><ul><li>Plastic recycling, regeneration, and microplastics from life-science perspectives.</li><li>Nutraceutical importance of <em>Moringa oleifera</em>.</li><li>Probiotics and human health in relation to sustainable development.</li><li>Waste management and environmental education.</li></ul><p>Confirm which items are published, accepted, presented, or in preparation before listing them as publications.</p></article></div></section>
-<section id="achievements"><div class="section-heading"><div class="eyebrow">Recognition &amp; Service</div><h2>Achievements &amp; Professional Activities</h2></div><div class="grid"><article class="card"><h3>Recognition</h3><p>Best Teacher Award from Research India Foundation (RIF), 2023.</p></article><article class="card"><h3>Professional Memberships</h3><p>Lifetime membership of Research India Foundation, Bhubaneswar, and Manipal-GOK Bioincubator, Karnataka. Verify exact membership status and wording before publishing.</p></article><article class="card"><h3>Workshops &amp; Outreach</h3><p>Biotechnology and microbiology workshops, skill-development sessions, extension lectures, and scientific demonstrations.</p></article><article class="card"><h3>Student &amp; Community Engagement</h3><p>Environmental awareness, plantation activities, International Yoga Day programmes, anti-drug awareness, and NSS activities.</p></article><article class="card"><h3>Academic Administration</h3><p>Departmental coordination, assessment planning, examination-related administration, and academic programme support.</p></article><article class="card"><h3>Scientific Communication</h3><p>Student seminars, resource sessions, conference contributions, and research-proposal development.</p></article></div></section>
-<section id="activities"><div class="section-heading"><div class="eyebrow">Academic Engagement</div><h2>Selected Events &amp; Activities</h2></div><article class="card"><ul><li><strong>29 September 2026:</strong> Extension lecture on “AI-Driven Innovations in Clinical Microbiology—Opportunities and Challenges.”</li><li><strong>26 September 2026:</strong> Workshop on PCR amplification of a housekeeping gene, agarose gel electrophoresis, and UV visualization.</li><li><strong>2025:</strong> World Environment Day, International Yoga Day, and NSS outreach activities.</li><li><strong>Academic engagement:</strong> Student exposure visits, biotechnology skill sessions, and scientific demonstrations.</li></ul></article></section>
-<section id="contact"><div class="contact"><div><h2>Academic Collaboration</h2><p>For research collaboration, invited talks, academic exchange, and student learning initiatives.</p><p style="font-size:.9rem;margin-top:8px">Add your preferred professional email, ORCID, Google Scholar, and institutional profile links before publishing.</p></div><a class="button" href="#contact">Contact details to be added</a></div></section>
-</main><footer><p>© <span id="year"></span> P. Pushpalatha · Academic &amp; Research Portfolio</p><p>Verify all information and add approved contact details before public release.</p></footer><script>document.getElementById("year").textContent=new Date().getFullYear();</script>
-</body></html>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home">P. Pushpalatha</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#academic">Academic Profile</a><a href="#teaching">Teaching</a>
+        <a href="#research">Research</a><a href="#publications">Publications</a><a href="#achievements">Achievements</a><a href="#e-content">E-Content</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero" id="home">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">Education · Research · Innovation</div>
+        <h1>P. Pushpalatha</h1>
+        <h2>Assistant Professor of Biotechnology<br>Government Degree College for Women (Autonomous), Nalgonda, Telangana, India</h2>
+        <p class="hero-copy">Committed to biotechnology education, student mentoring, and research connecting plant biotechnology, environmental sustainability, and emerging scientific innovations.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#academic">Explore Academic Profile ↓</a>
+          <a class="button button-light" href="#research">Research Interests</a>
+        </div>
+      </div>
+      <aside class="profile-card">
+        <img class="profile-photo" src="pushpalatha-profile.jpg" alt="Portrait of P. Pushpalatha" onerror="this.style.display='none';document.getElementById('photo-fallback').style.display='grid'">
+        <div class="photo-placeholder" id="photo-fallback" style="display:none" aria-label="Photo placeholder">PP</div>
+        <h3>Academic &amp; Research Portfolio</h3>
+        <p>Biotechnology · Higher Education · Research</p>
+        <div class="badges"><span class="badge">CSIR-UGC NET</span><span class="badge">APSET</span><span class="badge">Best Teacher Award · 2023</span></div>
+      </aside>
+    </div>
+  </div>
+
+  <div class="stats" aria-label="Professional highlights">
+    <div class="stat"><strong>14+ Years*</strong><span>Teaching experience</span></div>
+    <div class="stat"><strong>Biotechnology</strong><span>Teaching &amp; mentoring</span></div>
+    <div class="stat"><strong>Plant &amp; Environment</strong><span>Research interests</span></div>
+    <div class="stat"><strong>2023</strong><span>Best Teacher Award · RIF</span></div>
+  </div>
+
+  <main>
+    <section id="about">
+      <div class="section-heading"><div class="eyebrow">Introduction</div><h2>About Me</h2></div>
+      <p class="intro">I am P. Pushpalatha, Assistant Professor of Biotechnology at Government Degree College for Women (Autonomous), Nalgonda, Telangana. My academic work includes teaching, curriculum development, student project guidance, departmental coordination, and research interests connecting biotechnology with health, agriculture, and environmental sustainability.</p>
+      <p class="intro">I aim to create engaging learning experiences, encourage scientific curiosity, and help students connect core biotechnology concepts with practical and emerging applications.</p>
+    </section>
+
+    <section id="academic">
+      <div class="section-heading"><div class="eyebrow">Qualifications &amp; Experience</div><h2>Academic Profile</h2></div>
+      <div class="two-col">
+        <article class="card">
+          <h3>Educational Qualifications</h3>
+          <ul>
+            <li><strong>M.Sc. Biotechnology</strong> — Kakatiya University, Warangal (2009).</li>
+            <li><strong>B.Sc.</strong> — Singareni Mahila Degree College, Andugulapeta, Kakatiya University (2007).</li>
+            <li><strong>CSIR-UGC NET</strong> — Qualified in 2009.</li>
+            <li><strong>APSET</strong> — Qualified in 2012, Osmania University.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Professional Experience &amp; Responsibilities</h3>
+          <div class="timeline">
+            <div class="timeline-item"><small>26 December 2011</small><h3>Entered Government Service</h3><p>Assistant Professor in Biotechnology.</p></div>
+            <div class="timeline-item"><small>14 September 2013</small><h3>Joined Present Station</h3><p>Academic and departmental responsibilities in higher education.</p></div>
+            <div class="timeline-item"><small>1 July 2026</small><h3>Additional Controller of Examinations</h3><p>Examination-related administrative responsibility.</p></div>
+          </div>
+        </article>
+      </div>
+      <p class="note">*Teaching experience and appointment details are based on previously supplied information. Please verify dates, current designations, and institutional wording before public release.</p>
+    </section>
+
+    <section id="teaching">
+      <div class="section-heading"><div class="eyebrow">Teaching &amp; Mentoring</div><h2>Teaching Portfolio</h2><p class="intro">Course delivery, syllabus development, practical learning, assessment, and student project mentoring.</p></div>
+      <div class="grid">
+        <article class="card"><h3>Core Biotechnology</h3><p>Cell Biology, Genetics, Molecular Biology, Biochemistry, Microbiology, and Immunology.</p></article>
+        <article class="card"><h3>Plant Biotechnology</h3><p>Plant tissue culture, plant growth regulators, somaclonal variation, and plant biotechnology applications.</p></article>
+        <article class="card"><h3>Bioinformatics</h3><p>Sequence analysis, BLAST, FASTA, phylogenetics, and introductory in-silico workflows.</p></article>
+        <article class="card"><h3>Practical Learning</h3><p>Laboratory demonstrations, virtual-lab assignments, experimental design, and scientific reporting.</p></article>
+        <article class="card"><h3>Curriculum Development</h3><p>Outcome-based education, course outcomes, question banks, assessment blueprints, and syllabus revision.</p></article>
+        <article class="card"><h3>Student Mentoring</h3><p>Guidance for student projects, scientific presentations, research literacy, and career development.</p></article>
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="section-heading"><div class="eyebrow">Research Focus</div><h2>Research Interests &amp; Projects</h2><p class="intro">Research themes and student projects that connect biological science with sustainable applications. Add project status, collaborators, and outputs as appropriate.</p></div>
+      <div class="grid">
+        <article class="card"><h3>Plant Biotechnology</h3><p>Plant tissue culture, phytochemicals, medicinal plants, and plant-derived bioactive compounds.</p></article>
+        <article class="card"><h3>Environmental Biotechnology</h3><p>Bioplastics, waste management, biofuels, bioremediation, and sustainability.</p></article>
+        <article class="card"><h3>Natural Products</h3><p>Phytochemical analysis and antimicrobial investigations involving <em>Piper longum</em> and other plants.</p></article>
+        <article class="card"><h3>Nutraceuticals &amp; Millets</h3><p>Comparative amino-acid profiling of raw and sprouted ragi and bajra using TLC-based approaches.</p></article>
+        <article class="card"><h3>Bioinformatics</h3><p>In-silico and phylogenetic analysis of nifH gene sequences using MEGA.</p></article>
+        <article class="card"><h3>Nanotechnology &amp; Drug Delivery</h3><p>Research proposal focus: Moringa-derived flavonoids and mesoporous silica nanoparticle-based delivery strategies for anticancer applications.</p></article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <div class="section-heading"><div class="eyebrow">Scholarly Work</div><h2>Publications &amp; Academic Writing</h2><p class="intro">Use this section to present verified publications with complete bibliographic details and links to the published work.</p></div>
+      <div class="two-col">
+        <article class="card"><h3>Book Chapter</h3><p><strong>“Plastic Recycling and Regeneration in Sustainable Smart Manufacturing”</strong></p><p>Add publisher, editor(s), publication year, page range, ISBN, and DOI or official link, as applicable.</p></article>
+        <article class="card"><h3>Review &amp; Conference Themes</h3><ul><li>Plastic recycling, regeneration, and microplastics from life-science perspectives.</li><li>Nutraceutical importance of <em>Moringa oleifera</em>.</li><li>Probiotics and human health in relation to sustainable development.</li><li>Waste management and environmental education.</li></ul><p>Confirm whether each item is published, accepted, presented, or in preparation before listing it as a publication.</p></article>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <div class="section-heading"><div class="eyebrow">Recognition &amp; Service</div><h2>Achievements &amp; Professional Activities</h2></div>
+      <div class="grid">
+        <article class="card"><h3>Awards &amp; Recognition</h3><p>Best Teacher Award from Research India Foundation (RIF), 2023.</p></article>
+        <article class="card"><h3>Professional Memberships</h3><p>Lifetime membership of Research India Foundation, Bhubaneswar, and Manipal-GOK Bioincubator, Karnataka. Verify exact membership status and wording before publishing.</p></article>
+        <article class="card"><h3>Workshops &amp; Outreach</h3><p>Biotechnology and microbiology workshops, skill-development sessions, extension lectures, and scientific demonstrations.</p></article>
+        <article class="card"><h3>Student &amp; Community Engagement</h3><p>Environmental awareness, plantation activities, International Yoga Day programmes, anti-drug awareness, and NSS activities.</p></article>
+        <article class="card"><h3>Academic Administration</h3><p>Departmental coordination, assessment planning, examination-related administration, and academic programme support.</p></article>
+        <article class="card"><h3>Scientific Communication</h3><p>Student seminars, resource sessions, conference contributions, and research-proposal development.</p></article>
+      </div>
+    </section>
+
+    <section id="activities">
+      <div class="section-heading"><div class="eyebrow">Academic Engagement</div><h2>Selected Events &amp; Activities</h2></div>
+      <article class="card">
+        <ul>
+          <li><strong>29 September 2026:</strong> Extension lecture on “AI-Driven Innovations in Clinical Microbiology—Opportunities and Challenges.”</li>
+          <li><strong>26 September 2026:</strong> Workshop on PCR amplification of a housekeeping gene, agarose gel electrophoresis, and UV visualization.</li>
+          <li><strong>2025:</strong> World Environment Day, International Yoga Day, and NSS outreach activities.</li>
+          <li><strong>Academic engagement:</strong> Student exposure visits, biotechnology skill sessions, and scientific demonstrations.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="e-content">
+      <div class="section-heading"><div class="eyebrow">Student Learning Resources</div><h2>E-Content &amp; Digital Learning Resources</h2><p class="intro">PowerPoint presentations prepared for Biotechnology and related life-science subjects. Select a presentation to download it for study.</p></div>
+      <div class="grid">
+        <article class="card"><div class="eyebrow">Biochemistry</div><h3>The Glyoxylate Cycle: Role, Reactions and Significance</h3><p>The glyoxylate cycle, its reactions, key enzymes, and metabolic significance.</p><p><a class="button" href="e-content/glyoxylate-cycle.pptx" download>Download PowerPoint</a></p></article>
+        <article class="card"><div class="eyebrow">Biochemistry / Molecular Biology</div><h3>Biosynthesis of Purine and Pyrimidine Nucleotides</h3><p>Nucleotide biosynthesis and related biochemical pathways.</p><p><a class="button" href="e-content/purine-pyrimidine-nucleotide-biosynthesis.pptx" download>Download PowerPoint</a></p></article>
+        <article class="card"><div class="eyebrow">Plant Biotechnology / Nutraceuticals</div><h3>Nutraceutical and Sustainable Benefits of Moringa oleifera</h3><p>Nutraceutical and sustainability-related learning material on Moringa oleifera.</p><p><a class="button" href="e-content/moringa-nutraceuticals.pptx" download>Download PowerPoint</a></p></article>
+        <article class="card"><div class="eyebrow">Environmental Biotechnology</div><h3>Plastic Recycling and Regeneration</h3><p>Plastic recycling, regeneration, and sustainability.</p><p><a class="button" href="e-content/plastic-recycling-regeneration.pptx" download>Download PowerPoint</a></p></article>
+        <article class="card"><div class="eyebrow">Environmental Biotechnology</div><h3>Greener Getaways: Waste Management</h3><p>Waste-management learning presentation.</p><p><a class="button" href="e-content/greener-getaways-waste-management.pptx" download>Download PowerPoint</a></p></article>
+        <article class="card"><div class="eyebrow">Microbiology</div><h3>Navigating the Complexities of MDR-TB</h3><p>Learning presentation on multidrug-resistant tuberculosis.</p><p><a class="button" href="e-content/mdr-tb.pptx" download>Download PowerPoint</a></p></article>
+        <article class="card"><div class="eyebrow">Microbiology / Public Health</div><h3>World Tuberculosis (TB) Day 2025</h3><p>Educational presentation prepared for World TB Day 2025.</p><p><a class="button" href="e-content/world-tuberculosis-day-2025.pptx" download>Download PowerPoint</a></p></article>
+      </div>
+      <p class="note"><strong>For students:</strong> Select “Download PowerPoint” to save a presentation. This section can be expanded as additional lecture materials are added.</p>
+    </section>
+
+    <section id="contact">
+      <div class="section-heading"><div class="eyebrow">Connect Professionally</div><h2>Contact &amp; Research Profiles</h2>
+        <p class="intro">For academic collaboration, research discussions, invited lectures, and student learning initiatives, please use the contact details and researcher profile below.</p>
+      </div>
+      <div class="two-col">
+        <article class="card">
+          <h3>Contact Details</h3>
+          <p><strong>Professional email:</strong><br><a href="mailto:pagidi.pushpalatha@gmail.com">pagidi.pushpalatha@gmail.com</a></p>
+          <p style="margin-top:14px"><strong>Institution:</strong><br>Government Degree College for Women (Autonomous), Nalgonda, Telangana, India</p>
+        </article>
+        <article class="card">
+          <h3>Researcher Profiles</h3>
+          <p><strong>ORCID iD:</strong><br><a href="https://orcid.org/0009-0004-5718-731X" target="_blank" rel="noopener noreferrer">0009-0004-5718-731X — View ORCID profile ↗</a></p>
+          <p style="margin-top:14px"><strong>ResearchGate:</strong><br><a href="https://www.researchgate.net/" target="_blank" rel="noopener noreferrer">Open ResearchGate ↗</a></p>
+          <p style="font-size:.88rem;color:#5c7075;margin-top:8px">The ResearchGate link will be updated to your personal profile when you provide its profile URL. Google Scholar and institutional profile links can also be added when available.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> P. Pushpalatha · Academic &amp; Research Portfolio</p>
+    <p>Biotechnology · Higher Education · Research</p>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
